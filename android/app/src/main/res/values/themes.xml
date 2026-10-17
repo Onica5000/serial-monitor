@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.SerialMonitor" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+    </style>
+    <color name="bg">#FFFAFDFD</color>
+    <color name="ic_launcher_background">#FF00979D</color>
+</resources>

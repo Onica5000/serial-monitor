@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs are decimal. Matching devices offer to open Serial Monitor when plugged in. -->
+<resources>
+    <!-- WCH (0x1A86): CH340 7523, CH341 5523, CH340K 7522, CH9102 55D4, CH343 55D3, CH342 55D2, CH9101 55D8 -->
+    <usb-device vendor-id="6790" />
+    <!-- Silicon Labs CP210x (0x10C4): CP2102/CP2104 EA60, CP2105 EA70, CP2108 EA71 -->
+    <usb-device vendor-id="4292" product-id="60000" />
+    <usb-device vendor-id="4292" product-id="60016" />
+    <usb-device vendor-id="4292" product-id="60017" />
+    <!-- FTDI (0x0403): FT232R 6001, FT2232 6010, FT4232 6011, FT232H 6014, FT231X 6015 -->
+    <usb-device vendor-id="1027" product-id="24577" />
+    <usb-device vendor-id="1027" product-id="24592" />
+    <usb-device vendor-id="1027" product-id="24593" />
+    <usb-device vendor-id="1027" product-id="24596" />
+    <usb-device vendor-id="1027" product-id="24597" />
+    <!-- Prolific PL2303 (0x067B): 2303, 23A3 -->
+    <usb-device vendor-id="1659" product-id="8963" />
+    <usb-device vendor-id="1659" product-id="9123" />
+    <!-- Espressif native USB (0x303A): USB-Serial/JTAG 1001 (C3/S3/C6/H2), TinyUSB CDC 0002 (S2/S3), all PIDs -->
+    <usb-device vendor-id="12346" />
+    <!-- Arduino (0x2341, 0x2A03): Uno R3/R4, Mega, Leonardo, Micro, Nano Every, ... -->
+    <usb-device vendor-id="9025" />
+    <usb-device vendor-id="10755" />
+    <!-- SparkFun (0x1B4F), Adafruit (0x239A), Raspberry Pi RP2040 (0x2E8A) -->
+    <usb-device vendor-id="6991" />
+    <usb-device vendor-id="9114" />
+    <usb-device vendor-id="11914" />
+    <!-- Teensy serial (0x16C0:0x0483) -->
+    <usb-device vendor-id="5824" product-id="1155" />
+</resources>

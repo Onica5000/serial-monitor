@@ -1,0 +1,18 @@
+# Python / PyInstaller
+__pycache__/
+*.pyc
+desktop/build/
+desktop/dist/
+*.spec
+# Android
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+android/keystore/
+*.jks
+*.keystore
+keystore.properties
+*.apk
+*.exe
