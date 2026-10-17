@@ -48,3 +48,7 @@ On Android, allow "Install unknown apps" for whichever app opens the APK, and us
 
 - Close the Arduino IDE's Serial Monitor first: Windows lets only one program open a COM port at a time ("Access is denied" means something else has it).
 - ESP32 boards usually talk at 115200 baud; classic Arduino sketches often use 9600.
+
+## License
+
+Open source under the [MIT License](LICENSE). Contributions and forks welcome.
